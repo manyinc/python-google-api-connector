@@ -1,6 +1,6 @@
 # Google Api Spreadsheet Connector
 
-Google Sheets Data Fetcher to aplikacja w języku Python, która pobiera dane z Google Sheets za pomocą OAuth2 i biblioteki `gspread`. Poniższy przewodnik poprowadzi Cię przez proces instalacji i konfiguracji tego programu.
+Google Api Spreadsheet Connector to aplikacja w języku Python, która pobiera dane z Google Sheets za pomocą OAuth2 i biblioteki `gspread`. Poniższy przewodnik poprowadzi Cię przez proces instalacji i konfiguracji tego programu.
 
 ## Wymagania wstępne
 
@@ -14,8 +14,8 @@ Przed rozpoczęciem upewnij się, że masz zainstalowane poniższe narzędzia:
 1. **Klonowanie repozytorium**
 
     ```bash
-    git clone https://github.com/twoje-konto/google-sheets-data-fetcher.git
-    cd google-sheets-data-fetcher
+    git clone https://github.com/manyinc/python-google-api-connector.git
+    cd python-google-api-connector
     ```
 
 2. **Tworzenie i aktywacja wirtualnego środowiska**
@@ -41,7 +41,7 @@ Przed rozpoczęciem upewnij się, że masz zainstalowane poniższe narzędzia:
     Skopiuj swój plik klucza usługi JSON do katalogu `auth/` i nazwij go `creds.json`. Powinno to wyglądać tak:
 
     ```plaintext
-    google-sheets-data-fetcher/
+    python-google-api-connector/
     ├── auth/
     │   └── creds.json
     ├── main.py
