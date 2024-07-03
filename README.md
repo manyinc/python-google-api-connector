@@ -50,7 +50,9 @@ Przed rozpoczęciem upewnij się, że masz zainstalowane poniższe narzędzia:
 
 5. **Konfiguracja Google API**
 
-    Instrukcje dotyczące konfiguracji Google API znajdują się w pliku `google-api-cfg.pdf`.
+   - Utwórz arkusz google 'usersdb'
+   - Przejdź do strony https://console.cloud.google.com/
+   - Postępuj zgodnie ze screenami z pliku `google-api-cfg.pdf`.
 
 ## Użycie
 
